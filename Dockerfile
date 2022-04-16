@@ -14,4 +14,4 @@ FROM base as development
 ENV NODE_ENV=development
 RUN apk add curl git
 RUN npm install
-CMD ["npm", "start:dev"]
+CMD ["npm", "run", "start:dev"]
