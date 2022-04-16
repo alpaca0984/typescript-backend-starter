@@ -8,8 +8,8 @@ services:
     ports:
       - 3000:3000
     volumes:
-      - .:/workspace:cached
-      - node-modules:/workspace/node_modules
+      - .:/app:cached
+      - node-modules:/app/node_modules
 
 volumes:
   node-modules:
