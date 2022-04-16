@@ -12,6 +12,6 @@ EXPOSE 3000
 FROM base as development
 
 ENV NODE_ENV=development
-RUN apk install curl git
+RUN apk add curl git
 RUN npm install
 CMD ["npm", "start"]
