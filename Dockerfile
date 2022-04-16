@@ -1,7 +1,7 @@
 FROM node:16-alpine as base
 
-WORKDIR /workspace
-COPY . /workspace
+WORKDIR /app
+COPY . /app
 EXPOSE 3000
 
 # Add production state when needed
