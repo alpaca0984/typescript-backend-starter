@@ -1,4 +1,4 @@
-# typescript-backend
+# typescript-backend-starter
 
 Template codebase for server side application with TypeScript. It uses [Express.js](https://github.com/expressjs/express) as an example.
 

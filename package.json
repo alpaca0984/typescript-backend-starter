@@ -1,5 +1,5 @@
 {
-  "name": "typescript-backend",
+  "name": "typescript-backend-starter",
   "version": "1.0.0",
   "description": "Template codebase for server side application with TypeScript",
   "main": "src/index.ts",
