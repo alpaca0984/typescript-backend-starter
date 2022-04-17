@@ -1,9 +1,10 @@
 {
-  "name": "typescript-backend",
+  "name": "typescript-backend-starter",
   "version": "1.0.0",
   "description": "Template codebase for server side application with TypeScript",
   "main": "src/index.ts",
   "scripts": {
+    "lint": "eslint . --ext .ts,.js",
     "build": "tsc",
     "start": "node dist/index.js",
     "start:dev": "ts-node-dev src/index.ts",
@@ -20,6 +21,10 @@
     "@types/jest": "^27.4.1",
     "@types/node": "^17.0.24",
     "@types/supertest": "^2.0.12",
+    "@typescript-eslint/eslint-plugin": "^5.19.0",
+    "@typescript-eslint/parser": "^5.19.0",
+    "eslint": "^8.13.0",
+    "eslint-plugin-jest": "^26.1.4",
     "jest": "^27.5.1",
     "supertest": "^6.2.2",
     "ts-jest": "^27.1.4",
