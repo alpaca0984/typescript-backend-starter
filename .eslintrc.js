@@ -4,12 +4,11 @@ module.exports = {
   plugins: [
     '@typescript-eslint',
     'jest',
-    'prettier',
   ],
   extends: [
     'eslint:recommended',
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    'prettier',
   ],
   env: {
     es6: true,
